@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devive-width, inital-scale=1.0" />
+    <title>NEXTGEN!</title>
+    <style>
+      body,
+      html {
+        font-family: arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar {
+		background-color: white;
+        padding: 5px;
+        display: flex;
+        justify-content: last baseline;
+        align-items: center;
+      }
+      .navbar a {
+        color: black;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: inline-block;
+      }
+      .navbar a:hover {
+        background-color: white;
+      }
+      .content {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .content h2 {
+        font-size: 25px;
+        color: #377437;
+        text-align: center;
+      }
+      .button-link {
+        display: block;
+        display: block;
+        background-color: rgb(102, 177, 102);
+        color: bisque;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        margin: 10px auto;
+        width: 100%;
+        max-width: 150px;
+        border-radius: 50px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+        font-size: 18px;
+	  }
+      .container {
+        display: flex;
+        justify-content: last baseline;
+        flex-wrap: wrap;
+      }
+      .text-section {
+        flex: 1;
+        min-width: 300px;
+        margin-top: 20px;
+      }
+      .image-section {
+        flex: 1;
+        max-width: 20px;
+      }
+	  a:link,
+      a:visited {
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-table;
+		font-size: 13px;
+      }
+      .footer {
+        background-color: white;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+        padding: 10px 0;
+        margin-bottom: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Bagian Navbar-->
+    <div class="navbar">
+      <div>
+		<a style="color: black;" href="index.html">HOME</a>
+		<a style="color: black;" href="kontak.html">KONTAK</a>
+    <a style="color: black;" href="wardak.html">WARDAK</a>
+      </div>
+    </div>
+    <!--Bagian Konten-->
+    <div class="content">
+      <h2>WARDAK (Warung Dadakan Nextgen)</h2>
+      <p> MENU WARDAK</p>
+      <p> Cokoten (Keripik Singkong) Rp. 20.000/pcs </p>
+      <p> Cimol Bojot Rp. 20.000/7pcs</p>
+      <p> Chocolate Cookie Rp. 13.000/pcs</p>
+      <p> Dimsum Rp. 15.000/pcs</p>
+      <a href="https://wa.me/6285880519696" target="_blank" class="button-link" button style="background-color: #336d33;">ORDER</a>
+      
+    </div>
+    <footer class="footer">
+      <p>&copy;2025 NEXTGEN GBI RAYON18</p>
+    </footer>
+  </body>
+</html>
